@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <link rel="icon" href="img/EF.png" type="image/icon type">
   </head>
 
   <body>
@@ -248,9 +249,7 @@
 
           <a
             href="https://www.linkedin.com/in/mazen-elfar-097956273/"
-            class="btn"
-            >Hire me</a
-          >
+            class="btn">Hire me</a>
         </div>
       </div>
       <div class="home-img">
@@ -277,7 +276,7 @@
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque,
               modi ad quae doloremque eaque totam provident rerum et qui soluta.
             </p>
-            <a href="https://www.instagram.com/elfar.programmer3/" class="btn"
+            <a href="#contact" class="btn"
               >text me</a
             >
           </div>
@@ -374,10 +373,8 @@
     <section class="contact" id="contact">
       <div class="container1">
         <h2>Contact Us Form</h2>
-        <form  action="https://formsubmit.co/c1c1ec33943183f782b1ad0defc7e52a"  method="POST"">
-          <input type="text" name="_honey" style="display:none;">
-          <input type="hidden" name="_capcha" value="false">
-          <input type="hidden" name="_next" value="https://alfar-programer.github.io/portfolio/successe.html">
+        <form   action="https://formspree.io/f/mzblbjpk"
+        method="POST">
           <div class="row100">
             <div class="col">
               <div class="inputBox">
@@ -399,7 +396,7 @@
           <div class="row100">
             <div class="col">
               <div class="inputBox">
-                <input type="text" id="email" name="Email" required />
+                <input type="email" id="email" name="Email" required />
                 <span class="text">Email</span>
                 <span class="line"></span>
               </div>
@@ -424,18 +421,45 @@
           </div>
           <div class="row100">
             <div class="col">
-              <input type="submit" />
+              <button type="submit">Send</button>
             </div>
           </div>
         </form>
       </div>
     </section>
-    <footer>
-        <h3>design by Elfar ,© 2023. Elfar.programer</h3>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        
+        <li class="social-icon__item"><a class="social-icon__link" href="mailto:mazenelfar20@gmail.com">
+          <ion-icon name="mail-outline"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://www.linkedin.com/in/mazen-elfar-097956273/">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" target="_blank" href="https://github.com/alfar-programer">
+          <ion-icon name="logo-github"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#Certificates">Certificates</a></li>
+        <li class="menu__item"><a class="menu__link" href="#Projects">Projects</a></li>
+        <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+  
+      </ul>
+      <p>E.F | All Rights Reserved</p>
     </footer>
   </div>
 
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/main.js"></script>
   </body>
@@ -444,3 +468,5 @@
 
 
   
+
+
